@@ -1,7 +1,7 @@
 {
   "name": "@runsecure/hkdfguard-abstractions",
   "version": "0.1.0",
-  "description": "Shared interfaces for HkdfGuard's Node components.",
+  "description": "Shared interfaces and cross-cutting types for HkdfGuard's Node components.",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -19,5 +19,8 @@
   },
   "scripts": {
     "build": "tsc -b"
+  },
+  "dependencies": {
+    "@runsecure/hkdfguard-diagnostics": "^0.1.0"
   }
 }

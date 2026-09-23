@@ -3,6 +3,9 @@
   "references": [
     { "path": "./packages/abstractions" },
     { "path": "./packages/diagnostics" },
-    { "path": "./packages/keywrapping-v1" }
+    { "path": "./packages/keywrapping-v1" },
+    { "path": "./packages/cryptosession-aesgcm256" },
+    { "path": "./packages/dataencryptionkey" },
+    { "path": "./packages/cache" }
   ]
 }

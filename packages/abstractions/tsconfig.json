@@ -5,6 +5,9 @@
     "outDir": "dist",
     "composite": true
   },
+  "references": [
+    { "path": "../diagnostics" }
+  ],
   "include": ["src"],
   "exclude": ["src/**/*.test.ts"]
 }

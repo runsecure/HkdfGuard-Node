@@ -1,1 +1,11 @@
+export type { CryptoProvider } from './cryptoProvider.js';
+export type { CryptoProviderFactory } from './cryptoProviderFactory.js';
+export type { DataEncryptionKey } from './dataEncryptionKey.js';
+export type { DataProtector } from './dataProtector.js';
+export type { EncryptedFormatProvider } from './encryptedFormatProvider.js';
+export type { KeyTrackingValue } from './keyTrackingValue.js';
 export type { KeyWrapper } from './keyWrapper.js';
+export type { ProtectedCache } from './protectedCache.js';
+export { ProtectedCacheBase } from './protectedCacheBase.js';
+export type { ProtectedReadOnlyCache } from './protectedReadOnlyCache.js';
+export { isNullOrEmpty, zeroMemory } from './arrayUtility.js';
