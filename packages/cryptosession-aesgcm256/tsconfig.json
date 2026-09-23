@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "composite": true
+  },
+  "references": [
+    { "path": "../abstractions" },
+    { "path": "../diagnostics" }
+  ],
+  "include": ["src"],
+  "exclude": ["src/**/*.test.ts", "src/testHelpers"]
+}

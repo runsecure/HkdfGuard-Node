@@ -1,0 +1,30 @@
+{
+  "name": "@runsecure/hkdfguard-dataencryptionkey",
+  "version": "0.1.0",
+  "description": "Data-encryption-key management for HkdfGuard: wrapped/pipeline keys, a versioned KeyRing, and a name-scoped DataProtector.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@runsecure/hkdfguard-abstractions": "^0.1.0",
+    "@runsecure/hkdfguard-diagnostics": "^0.1.0"
+  },
+  "devDependencies": {
+    "@runsecure/hkdfguard-cryptosession-aesgcm256": "^0.1.0"
+  }
+}
