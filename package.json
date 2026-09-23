@@ -1,0 +1,21 @@
+{
+  "name": "hkdfguard-node",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "test": "vitest --typecheck run",
+    "typecheck": "tsc -b"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0",
+    "vitest": "^4.1.11"
+  },
+  "overrides": {
+    "vite": "^6.4.3"
+  }
+}

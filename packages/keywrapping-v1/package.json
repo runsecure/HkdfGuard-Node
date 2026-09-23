@@ -1,0 +1,27 @@
+{
+  "name": "@runsecure/hkdfguard-keywrapping-v1",
+  "version": "0.1.0",
+  "description": "Protects and reveals a DEK via the platform's native HkdfGuard KMS library (TPM2, Secure Enclave, or Platform Crypto Provider), bound through koffi.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@runsecure/hkdfguard-abstractions": "^0.1.0",
+    "koffi": "^3.3.1"
+  }
+}
