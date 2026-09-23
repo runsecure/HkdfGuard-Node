@@ -1,0 +1,8 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/abstractions" },
+    { "path": "./packages/diagnostics" },
+    { "path": "./packages/keywrapping-v1" }
+  ]
+}

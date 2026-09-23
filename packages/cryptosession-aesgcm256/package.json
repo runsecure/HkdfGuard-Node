@@ -1,0 +1,27 @@
+{
+  "name": "@runsecure/hkdfguard-cryptosession-aesgcm256",
+  "version": "0.1.0",
+  "description": "AES-256-GCM encrypt/decrypt sessions for HkdfGuard, backed by a periodically-refreshed unwrapped DEK, using Node's built-in node:crypto for AES-GCM.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@runsecure/hkdfguard-abstractions": "^0.1.0",
+    "@runsecure/hkdfguard-diagnostics": "^0.1.0"
+  }
+}
